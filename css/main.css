@@ -1,0 +1,121 @@
+/*Global Styles*/
+/*
+Primary Color:
+Secondary Color:
+Tertiary Color:
+*/
+body {
+  margin: 0;
+}
+h1 {
+  margin:0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Header Styles*/
+header {
+  width: 100%;
+  height: 90px;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+}
+.logo {
+  height: 100%;
+  width: 250px;
+  float: left;
+}
+.logo h1 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+/*Menu Styles*/
+.menu {
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+.menu li {
+  float: left;
+  padding: 0 5px;
+}
+.menu ul {
+  padding-top: 25px;
+}
+
+/*Section Styles*/
+#banner {
+  width: 100%;
+  height: 700px;
+  padding-top: 190px;
+  background: url("../img/bw_skyline.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h1 {
+  margin: 0px;
+  padding-bottom: 20px;
+  font-size: 105px;
+  text-align: center;
+}
+#banner p {
+  margin: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#about {
+  width: 100%;
+  height: 700px;
+  background-color: green;
+}
+
+#skills {
+  width: 100%;
+  height: 400px;
+  background-color: purple;
+}
+
+#contact {
+  width: 100%;
+  height: 700px;
+  background-color: red;
+}
+
+#map {
+  width: 100%;
+  display: inline-block;
+}
+.map-container {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  background-color: #333;
+}
+#map iframe {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#footer {
+  width: 100%;
+  height: 150px;
+  background-color: lightblue;
+}
+.copyright p {
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
