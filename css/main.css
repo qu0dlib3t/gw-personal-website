@@ -65,6 +65,7 @@ header {
   background-color: black;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: white;
   text-shadow: #000 0px 0px 12px;
 }
@@ -101,6 +102,7 @@ header {
   background-color: black;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   font-family: 'Catamaran', sans-serif;
   text-shadow: #000 0px 0px 12px;
 }
@@ -158,6 +160,7 @@ header {
   background-color: black;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: white;
   font-family: 'Catamaran', sans-serif;
   font-size: 60px;
